@@ -17,12 +17,12 @@ A Python analysis script for loading, cleaning, and plotting time-series data fr
 
 ## Requirements
 
-Python 3.10+
-pandas
-matplotlib
+- Python 3.10+
+- pandas
+- matplotlib
 
 ## Features
-Dynamic Loading: Automatically detects file paths relative to the script location.
-Robust Parsing: Handles metadata headers, BOM encoding (utf-8-sig), and blank lines automatically.
-Data Cleaning: Concatenates disjointed datasets into a single continuous time-series.
-Visualization: Generates stacked subplots for all numeric variables (Irradiance, Voltage, Temperature, etc.), sharing the same time axis.
+- Dynamic Loading: Automatically detects file paths relative to the script location.
+- Robust Parsing: Handles metadata headers, BOM encoding (utf-8-sig), and blank lines automatically.
+- Data Cleaning: Concatenates disjointed datasets into a single continuous time-series.
+- Visualization: Generates stacked subplots for all numeric variables (Irradiance, Voltage, Temperature, etc.), sharing the same time axis.
